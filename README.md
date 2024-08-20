@@ -2,9 +2,9 @@ docker compose up -d
 
 docker ps : export command: 
 
-a2b0a0216e8c   gitlab/gitlab-ce:latest            "/assets/wrapper"        7 days ago    Up About a minute (healthy)   22/tcp, 80/tcp, 443/tcp, 0.0.0.0:8088->8088/tcp, :::8088->8088/tcp  gitlab-server
+1- a2b0a0216e8c   gitlab/gitlab-ce:latest            "/assets/wrapper"        7 days ago    Up About a minute (healthy)   22/tcp, 80/tcp, 443/tcp, 0.0.0.0:8088->8088/tcp, :::8088->8088/tcp  gitlab-server
 
-0fb9c9fb28c3   gitlab/gitlab-runner:alpine        "/usr/bin/dumb-init …"   7 days ago    Up About a minute 
+2- 0fb9c9fb28c3   gitlab/gitlab-runner:alpine        "/usr/bin/dumb-init …"   7 days ago    Up About a minute 
 
 create new project --> setting --> CICD --> runner --> new project runner --> create runner --> type runner --> 
 
